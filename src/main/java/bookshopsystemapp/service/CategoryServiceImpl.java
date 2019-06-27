@@ -11,7 +11,7 @@ import java.io.IOException;
 @Service
 public class CategoryServiceImpl implements CategoryService {
 
-    private final static String CATEGORIES_FILE_PATH = "C:\\Users\\User\\Desktop\\BookShopSystem\\src\\main\\resources\\files\\categories.txt";
+    private final static String CATEGORIES_FILE_PATH = "D:\\Repositories\\GitHub\\SpringDataAdvanced\\src\\main\\resources\\files\\categories.txt";
 
     private final CategoryRepository categoryRepository;
     private final FileUtil fileUtil;

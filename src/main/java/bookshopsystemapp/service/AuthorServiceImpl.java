@@ -11,7 +11,7 @@ import java.io.IOException;
 @Service
 public class AuthorServiceImpl implements AuthorService {
 
-    private final static String AUTHORS_FILE_PATH = "C:\\Users\\User\\Desktop\\BookShopSystem\\src\\main\\resources\\files\\authors.txt";
+    private final static String AUTHORS_FILE_PATH = "D:\\Repositories\\GitHub\\SpringDataAdvanced\\src\\main\\resources\\files\\authors.txt";
 
     private final AuthorRepository authorRepository;
     private final FileUtil fileUtil;

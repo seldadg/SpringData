@@ -30,18 +30,7 @@ public class BookshopController implements CommandLineRunner {
         this.categoryService.seedCategories();
         this.bookService.seedBooks();
 
-//        this.bookTitles();
-        this.authorNames();
 
-    }
 
-    private void bookTitles() {
-        List<String> bookTitles = this.bookService.getAllBooksTitlesAfter();
-
-        System.out.println(String.join("\r\n", bookTitles));
-    }
-
-    private void authorNames() {
-        this.bookService.getAllAuthorsWithBookBefore().stream().forEach(a -> System.out.println(a));
     }
 }

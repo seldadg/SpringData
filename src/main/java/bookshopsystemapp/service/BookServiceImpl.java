@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Transactional
 public class BookServiceImpl implements BookService {
 
-    private final static String BOOKS_FILE_PATH = "C:\\Users\\User\\Desktop\\BookShopSystem\\src\\main\\resources\\files\\books.txt";
+    private final static String BOOKS_FILE_PATH = "D:\\Repositories\\GitHub\\SpringDataAdvanced\\src\\main\\resources\\files\\books.txt";
 
     private final BookRepository bookRepository;
     private final AuthorRepository authorRepository;
